@@ -1,0 +1,65 @@
+
+		.button {
+  border-radius: 4px;
+  background-color:  #ff6900;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+h1{
+
+background-color:  #ff6900;
+font-size: 38px; 
+text-align: center; 
+font-family: arial rgb(219, 200, 200);
+}
+
+p{
+  color: skyblue; 
+  font-size: 30px;
+  font-family: Arial Rounded MT Bold;
+}
+.foot 
+      {
+        position: fixed;
+        bottom: 0;
+        background:  #ff6900;
+        width: 100%;
+        color: #ffffff;
+        padding-bottom:0px;
+        text-align: center;
+        height: 40px;
+        font-size: 14px;
+      }
